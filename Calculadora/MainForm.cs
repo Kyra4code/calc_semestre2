@@ -18,13 +18,13 @@ namespace Calculadora
 		Button Divisão = new Button();
 		TextBox valor1 = new TextBox();
 		TextBox valor2 = new TextBox();
-		Label tempo = new Label();
+		Label temporario = new Label();
 		
 		void MainFormLoad(object sender, EventArgs e)
 		{
 			
-			tempo.Parent = this;
-			tempo.Text ="Estou Aqui";
+			temporario.Parent = this;
+			temporario.Text ="Estou Aqui";
 			
 			//---------------------------------------------------------//
 			valor1.Parent = this;
@@ -32,14 +32,12 @@ namespace Calculadora
 			valor1.Width = 120;
 			valor1.Top = 50;
 			valor1.Left = 30;
-			valor1.Name = "textbox1";
 			//---------------------------------------------------------//
 			valor2.Parent = this;
 			valor2.Height = 25;
 			valor2.Width = 120;
 			valor2.Top = 50;
 			valor2.Left = 180;
-			valor2.Name = "textbox2";
 			//---------------------------------------------------------//
 			soma.Parent = this;
 			soma.Text = "Somar";
@@ -47,6 +45,7 @@ namespace Calculadora
 			soma.Width = 120;
 			soma.Top = 170;
 			soma.Left = 20;
+			soma.Click = somaClick;
 			//--------------------------------------------------------//
 			Subtração.Parent = this;
 			Subtração.Text = "Subtrair";
@@ -69,8 +68,16 @@ namespace Calculadora
 			Divisão.Top = 250;
 			Divisão.Left = 20;
 		}
-		void somaClick(object sender, EventArgs e){
-			tempo.Text = int.Parse(valor1.Text) + int.Parse(valor2.Text).ToString();
- 		}
+		void somaClick(object sender, EventArgs e)
+		{
+			int x, y, r;
+			
+			x = int.Parse(valor1.Text);
+			y = int.Parse(valor2.Text);
+
+			r = x + y;
+
+			temporario.Text = r.ToString()
+		}
 	}
 }
