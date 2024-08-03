@@ -6,3 +6,11 @@ C:\Users\aluno\Documents\SharpDevelop Projects\Calculadora\Calculadora\obj\Debug
 C:\Users\aluno\Documents\SharpDevelop Projects\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.Cache
 C:\Users\aluno\Documents\SharpDevelop Projects\Calculadora\Calculadora\obj\Debug\Calculadora.exe
 C:\Users\aluno\Documents\SharpDevelop Projects\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\aluno\Downloads\gregr\calc_semestre2\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
+C:\Users\aluno\Downloads\gregr\calc_semestre2\Calculadora\obj\Debug\Calculadora.MainForm.resources
+C:\Users\aluno\Downloads\gregr\calc_semestre2\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.Cache
+C:\Users\aluno\Downloads\gregr\calc_semestre2\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\aluno\Downloads\gregr\calc_semestre2\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\aluno\Downloads\gregr\calc_semestre2\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\aluno\Downloads\gregr\calc_semestre2\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\aluno\Downloads\gregr\calc_semestre2\Calculadora\obj\Debug\Calculadora.pdb

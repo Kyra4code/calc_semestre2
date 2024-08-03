@@ -45,7 +45,7 @@ namespace Calculadora
 			soma.Width = 120;
 			soma.Top = 170;
 			soma.Left = 20;
-			soma.Click = somaClick;
+			soma.Click += somaClick;
 			//--------------------------------------------------------//
 			Subtração.Parent = this;
 			Subtração.Text = "Subtrair";
@@ -70,14 +70,16 @@ namespace Calculadora
 		}
 		void somaClick(object sender, EventArgs e)
 		{
-			int x, y, r;
+			/*int x, y, r;
 			
 			x = int.Parse(valor1.Text);
 			y = int.Parse(valor2.Text);
 
 			r = x + y;
 
-			temporario.Text = r.ToString()
+			temporario.Text = r.ToString();*/
+			
+			temporario.Text = int.Parse(valor1.Text + int.Parse(valor2.Text));
 		}
 	}
 }
