@@ -47,12 +47,13 @@ namespace Calculadora
 			soma.Left = 20;
 			soma.Click += somaClick;
 			//--------------------------------------------------------//
-			Subtração.Parent = this;
-			Subtração.Text = "Subtrair";
-			Subtração.Height = 50;
-			Subtração.Width = 120;
-			Subtração.Top = 170;
-			Subtração.Left = 170;
+			Subtraçao.Parent = this;
+			Subtraçao.Text = "Subtrair";
+			Subtraçao.Height = 50;
+			Subtraçao.Width = 120;
+			Subtraçao.Top = 170;
+			Subtraçao.Left = 170;
+			Subtraçao.Click += SubtraçaoClick;
 			//--------------------------------------------------------//
 			Multiplicação.Parent = this;
 			Multiplicação.Text = "Multiplicar";
@@ -70,16 +71,24 @@ namespace Calculadora
 		}
 		void somaClick(object sender, EventArgs e)
 		{
-			/*int x, y, r;
+			int x, y, r;
 			
 			x = int.Parse(valor1.Text);
 			y = int.Parse(valor2.Text);
 
 			r = x + y;
 
-			temporario.Text = r.ToString();*/
+			temporario.Text = r.ToString();
+		}
+		void SubtraçaoClick(object sender, EventArgs e){
+			int x, y, r;
 			
-			temporario.Text = int.Parse(valor1.Text + int.Parse(valor2.Text));
+			x = int.Parse(valor1.Text);
+			y = int.Parse(valor2.Text);
+
+			r = x - y;
+
+			temporario.Text = r.ToString();
 		}
 	}
 }
